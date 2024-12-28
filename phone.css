@@ -1,0 +1,269 @@
+#nav{
+    height: 130px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    
+    padding: 0 10px;
+    gap: 20px;
+    position: fixed;
+    z-index: 99;
+    overflow-x: hidden;
+    
+
+    
+
+}
+#nav img{   
+    height: 45px;
+} 
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3vw;
+}
+video{
+    height: 100%;
+    width: 92%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    overflow-x: hidden;
+
+}
+#page1 h1{
+    font-size: 20vw;
+    font-weight: 900;
+    position: relative;
+   
+   
+}
+#page1 h2{
+    font-size: 8vw;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#page1 p{
+    font-size: 4vw;
+    font-weight: 500;
+    width: 60%;
+}
+#about-us{
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+#about-us img{
+    height: 50vw;
+    width: 100%;
+    border-radius: 20px;
+    object-fit:cover; 
+    margin-top: 434px;
+   overflow-x: hidden;
+
+   
+    
+   
+}
+#about-us-in{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 180px;
+}
+#about-us-in h3{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    /* margin-right: 70px; */
+    text-align: center;
+}
+#about-us-in p{
+    font-size: 6vw;
+    line-height: 26px;
+    width: 190%;
+    margin: 4px -59px;
+}
+#cards-container{
+    /* background-color: red; */
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+.card{
+    height: 80%;
+    width: 45%;
+    /* background-color: blue; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    /* transition: all ease 0.7s; */
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#95C11E;
+    padding: 30px 11px;
+    padding-top: 20px;
+    opacity: 0;
+    /* transition: all ease 0.7s; */
+
+
+}
+.overlay h4{
+    color: #eff5f5;
+    font-size: 2.8vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.overlay p{
+    color: #000;
+    font-size: 5vw;
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+.card:hover{
+    transform: rotate3d(-1,1,0,20deg);
+}
+#green-div h4{
+    width: 69%;
+    line-height: 3vh;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 6vw;
+    text-transform: uppercase;
+     
+}
+#page3>p{
+    font-size: 8vw;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+#page3 img{
+    position: absolute;
+    height: 30px;
+
+
+}
+#page3 #colon1{
+    left: 5%;
+    top: 12%;
+
+}
+#page3 #colon2{
+    bottom: 12%;
+    right: 9%;
+
+}
+#page4 h1{
+    font-size: 6vw;
+    position:absolute;
+    top:7%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+}
+#page4{
+    height: 30vh;
+    width: 100%;
+    /* background-color: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+
+}
+.elem {
+    height: 70%;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+
+}
+.elem h2{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    display: flex;
+    color: #000;
+    align-items: center;
+    transition: all ease 0.5s;
+    justify-content: center ;
+    font-size: 4vw;
+    font-weight: 800;
+    position: absolute;
+    z-index: 10;
+
+
+}
+#footer{
+    height: 45vh;
+
+    width: 100%;
+    background: linear-gradient(to left bottom,#119f3a 0%,#ace022 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6vw;
+    padding: 0px 10px;
+    overflow-x: hidden;
+    
+
+}
+#f1{
+   
+    padding-bottom: 180px;
+}
+#f2 {
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 180px;
+}
+#f3{
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 180px;
+  }
+
+#f4 h4 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    line-height: 12px;
+    margin-bottom: 190px;
+  }
